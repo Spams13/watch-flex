@@ -48,10 +48,4 @@ class CreatProduct{
 let product1 = new CreatProduct(`Men's Running Shoes Nike`, 149.99, `Shoes`, `Premium`, `Great Running Shoes!`, `Italy`, true, 5);
 product1.addToStock(5)
 product1.buy(5,`576C1GR`);
-// for (keys of Object.keys(product1)){
-//     if (keys == `shipment`){
-//         product1.delivery = product1[keys]
-//         delete product1[keys];
-//     }
-// }
 console.log(product1)
